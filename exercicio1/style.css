@@ -1,17 +1,24 @@
-#texto-fonte-root{
+* {
+    margin: 0;
+    padding: 0;
+}
 
+#texto-fonte-root{
+    font-size: 3rem;
 }
 
 #texto-paddings-verticais{
-
+    padding: 2em 0;
 }
 
 #altura-porcentagem-comprimento{
-
+    height: 20vw;
+    background-color: aqua;
 }
 
 #comprimento-metade-altura{
-
+    width: 50vh;
+    background-color: blueviolet;
 }
 
 .container{
@@ -20,14 +27,20 @@
     font-size: 20px;
 }
 
-#fonte-setenta{
+ul {
+    height: 400px;
+}
 
+#fonte-setenta{
+    font-size: 0.7em;
+    /* font-size: 70%; outra possibilidade*/
 }
 
 #comprimento-pai{
-
+    width: 10%;
+    /* width: 0.1em; outra possibilidade*/
 }
 
 #altura-pai{
-
+    height: 10%;
 }
